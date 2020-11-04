@@ -1,0 +1,53 @@
+@charset 'utf-8';
+
+/* main banner section */
+.main_banner{margin-bottom:46px;}
+.main_banner .slider img{cursor:pointer;}
+.main_banner .bx-wrapper {-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none;border:none;background:transparent;}
+.main_banner .bx-wrapper .bx-pager{bottom:32px;}
+.main_banner .bx-wrapper .bx-pager.bx-default-pager a{background-color:#cccccc;width:16px;height:16px;margin-left:8.5px;margin-right:8.5px;border-radius:8px;}
+.main_banner .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {background-color:#ba000c;}
+
+/* fra_mall_store section */
+.fra_mall_store{margin-bottom:40px;}
+.fra,.store{cursor:pointer;}
+.fra,.mall,.store{float:left;width:230px;margin-right:10px;position:relative;}
+.mall{width:460px;}
+.store{margin-right:0;}
+.fra>.fra_tit,.fra>.fra_txt,.mall>.mall_tit,.mall>.mall_txt,.store>.store_tit,.store>.store_txt{position:absolute;left:22px;}
+.fra>.fra_tit,.mall>.mall_tit,.store>.store_tit{top:18px;}
+.fra>.fra_txt,.mall>.mall_txt,.store>.store_txt{top:48px;}
+.fra_mall_store h2{font-family:'Roboto';font-weight:900;font-size:24px;color:#333333;}
+.fra_txt p,.mall_txt p,.store_txt p{font-size:14px;line-height:21px;color:#666666;}
+
+.mall h2{color:#ba000c;}
+.mall_list{padding-top:90px;}
+.mall_list_item{float:left;}
+.mall_list_item ul{cursor:pointer;}
+.mall_list_item p{font-weight:100;font-size:14px;line-height:21px;color:#333333;text-align:center;}
+
+
+/* banner section */
+.banner{margin-bottom:18px;}
+.banner01{float:left;}
+.banner02{float:right;}
+
+/* notice section */
+.notice .grid940{border-bottom:2px solid #ba000c;padding-bottom:50px;}
+.notice>div>div{float:left;width:24.20212765957447%;margin-right:10px;}
+.notice>div>div:last-child{margin-right:0;}
+.notice_tit>h2{font-family:'Roboto';font-weight:bold;font-size:18px;color:#333333;}
+.notice_txt p,.notice_quick>p,.etc_txt p{font-weight:100;font-size:12px;line-height:20px;color:#666666;}
+.notice_txt li>div:first-child{float:left;}
+.notice_txt li>div:last-child{float:right;}
+
+.etc_imgs .etc_img{box-sizing:border-box;float:left;width:76px;}
+.etc_imgs .etc_img:nth-child(2){border-left:1px solid #ba000c;border-right:1px solid #ba000c;width:75px;}
+.etc_txt p{float:left;width:33.33333333333333%;text-align:center;}
+
+/* sns section */
+.sns{padding-top:45px;padding-bottom:115px;}
+.sns_tit, .sns_icons{float:left;}
+.sns_tit{width:149px;margin-right:10px;}
+.sns_icons{margin-top:3px;}
+.sns h2{font-family:'Roboto';font-weight:900;font-size:24px;color:#333333;}

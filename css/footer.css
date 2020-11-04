@@ -1,0 +1,12 @@
+@charset 'utf-8';
+
+/* footer section */
+.footer{padding:18px 0;background-color:#ba000c;}
+.footer ul{margin-bottom:6px;}
+.footer li{float:left;border-right:1px solid #ffffff;padding:0 14px;}
+.footer li a{color:#ffffff;font-size:14px;}
+.footer li:first-child{padding-left:0;}
+.footer li:first-child a{font-weight:bold;}
+.footer li:last-child{border-right:none;}
+.footer li:hover a{font-weight:bold;}
+.footer p{font-weight:100;font-size:12px;line-height:20px;color:#ffffff;}
